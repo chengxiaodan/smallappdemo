@@ -1,0 +1,29 @@
+/**index.wxss**/
+/* page {
+  background: url('http://dev.fe.ptdev.cn/ptpark/smallapp/img_homepage_bg_01.jpg') no-repeat center;
+  background-size: cover;
+  overflow: hidden
+} */
+.container {
+  height: auto;
+  } 
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 10rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.usermotto {
+  margin-bottom: 0rpx;
+}
